@@ -1,0 +1,18 @@
+{
+    "name": "hpz937/restclient",
+    "description": "Client library for interacting with REST apis",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hpz937\\Restclient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brad Cimbura",
+            "email": "hpz937+code@gmail.com"
+        }
+    ],
+    "require": {}
+}
