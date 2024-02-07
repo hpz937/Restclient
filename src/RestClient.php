@@ -224,6 +224,7 @@ class RestClient {
             // Set option to write response to a file
             $fileHandle = fopen($this->downloadFilename, 'w');
             curl_setopt($ch, CURLOPT_FILE, $fileHandle);
+            $this->downloadFilename = null;
         }
 
         $response = curl_exec($ch);
